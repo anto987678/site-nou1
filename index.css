@@ -1,0 +1,134 @@
+body {
+	/*background-color : rgb(163, 171, 214);*/
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.mainImage {
+	height: 1001px;
+	background-position: center;
+	background-repeat : no-repeat;
+	background-size: cover;
+	position:relative;
+}
+
+.im1 {
+	background-image: url("https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg");
+	background-color: pink;
+}
+
+.im2 {
+	background-image: url("https://media.istockphoto.com/id/1084759618/photo/pastel-cloudy-sky.jpg?s=170667a&w=0&k=20&c=M5ebRSkBWFKMj0lDHXMoFAi7ZGIY6uH3vc_1YeeJaiA=");
+	background-color: pink;
+}
+
+.title {
+	color : blue;
+	text-decoration-color : black;
+	width: 45px;
+	position:  center
+}
+
+img {
+	width: 400px;
+	border-radius : 40px;
+	float: left;
+	margin-right : 10px;
+}
+
+.img1 {
+	background-image : url("https://ichef.bbci.co.uk/news/976/cpsprodpb/17638/production/_124800859_gettyimages-817514614.jpg");
+	width: 400px;
+	border-radius : 40px;
+	float: left;
+	margin-right : 100px;
+}
+
+.ceva {
+	font-weight: bold;
+	font-family : sans-serif;
+	text-align: center;
+	top: 20px;
+	font-size: 100px;
+}
+
+.buton {
+	appearance: auto;
+	writing-mode: horizontal-tb !important;
+	font-family: arial;
+	font-size: 20px;
+	border: none;
+	width: 30em;
+	height: 14ex;
+	margin: 3px 2px;
+	margin-top: 200px;
+  position: relative;
+	left: -600px;
+	top: 200px;
+	background-color: pink;
+	border-radius: 5px;
+	padding: 5px 6px;
+	cursor: pointer;
+	border-radius : 40px;
+	transition: all 0.5s;
+}
+.buton:active {
+  background-color: rgb(15, 217, 255);
+}
+.buton span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+
+.buton span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 100;
+  top: 10;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.buton:hover span {
+  padding-right: 25px;
+}
+
+.buton:hover span:after {
+  opacity: 10;
+  right: 0;
+}
+
+.buton:hover {
+	color: rgb(pink);
+  background-color: rgba(55, 208, 247, 0.993);
+}
+
+h2 {
+  border-bottom: 2px solid #1e90ff;
+}
+
+.container {
+  color: #1e90ff;
+  background-color: #ffffff;
+  padding: 15px;
+}
+
+.textNormal {
+	font-family: Arial;
+	text-align: center;
+	margin-top: 10px;
+	margin-left: 45px;
+	font-size: 30px;
+}
+
+.btn {
+	font-family: arial;
+	font-size: 20px;
+	border: none;
+	width: 30em;
+	height: 14ex;
+	margin: 3px 2px;
+	margin-top: 10px;
+  position: relative;
+}
